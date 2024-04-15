@@ -25,14 +25,14 @@ struct TodoToggleButton: View {
                     
                     if state {
                         Circle()
-                            .frame(width: proxy.size.width * 0.8)
+                            .frame(width: proxy.size.width * 0.5)
                             .foregroundColor(.blue)
                     }
                 }
-                .padding(8)
+                .padding(4)
             }
         })
-//        .scaledToFit()
+        .scaledToFit()
         
         
 
